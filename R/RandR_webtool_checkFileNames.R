@@ -10,8 +10,8 @@
 #' @export
 #'
 #' @examples
-checkFileNames <- function(baseFolder = "/home/peterw/Restore and Renew/RandR-webtool-maintenance/New species staging",
-                           taxonTablePath = "/home/peterw/Restore and Renew/RandR_webtool_dev/rbgsyd-restore-and-renew-git-repos/rbgsyd-restore-and-renew-data/data/taxonTable.csv")
+checkFileNames <- function(baseFolder = "/data",
+                           taxonTablePath = "/data/taxonTable.csv")
 {
   allTaxa <- NULL
   category <- NULL
